@@ -69,4 +69,4 @@ class Expenses:
             set(self.list)-necessary_expenses-food_expenses
 
         }
-        return list(necessary_expenses, food_expenses, unnecessary_expenses)
+        return [necessary_expenses, food_expenses, unnecessary_expenses]
